@@ -57,14 +57,13 @@ struct ProductDeatailView: View {
                             .fontWeight(.medium)
                         
                         Text(product.description)
-                        
-                        }
                     }
+                }
             }
         }
         .ignoresSafeArea(edges: .top)
+        }
     }
-}
 
 struct ProductDeatailView_Previews: PreviewProvider {
     static var previews: some View {
