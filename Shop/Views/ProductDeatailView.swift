@@ -58,13 +58,8 @@ struct ProductDeatailView: View {
                         
                         Text(product.description)
                         
-                        HStack(alignment: .top){
-                            VStack(alignment: .leading)
-                            Text("Size")
-                                .font(.sy)
                         }
                     }
-                }
             }
         }
         .ignoresSafeArea(edges: .top)
